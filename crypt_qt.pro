@@ -32,7 +32,10 @@ SOURCES += \
     sha_c.cpp \
     sha1_wind.cpp \
     sha2_wind.cpp \
-    sub_test.cpp
+    sub_test.cpp \
+    RSA_c.cpp \
+    dynamic_mem_c.cpp \
+    rsa_wind.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -42,11 +45,15 @@ HEADERS += \
     sha_c.hpp \
     sha1_wind.h \
     sha2_wind.h \
-    sub_test.h
+    sub_test.h \
+    RSA_c.hpp \
+    dynamic_mem_c.hpp \
+    rsa_wind.h
 
 FORMS += \
         mainwindow.ui \
     aes_wind.ui \
     sha1_wind.ui \
     sha2_wind.ui \
-    sub_test.ui
+    sub_test.ui \
+    rsa_wind.ui

@@ -122,7 +122,6 @@ string RSA_c::decrypt(const string &in) const
 {
     dynamic_mem_c buf;
     buf.d_new(this->key_size);
-
     int out_size = RSA_private_decrypt(in.length(), (unsigned char *)in.c_str(), buf.mem, this->priv_key, RSA_PKCS1_OAEP_PADDING);
     if (out_size <= 0)
     {

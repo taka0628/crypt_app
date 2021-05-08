@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>486</width>
-    <height>429</height>
+    <width>378</width>
+    <height>371</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>20</x>
       <y>20</y>
       <width>331</width>
-      <height>91</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="title">
@@ -29,10 +29,10 @@
     <widget class="QWidget" name="horizontalLayoutWidget">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>0</x>
        <y>30</y>
-       <width>311</width>
-       <height>51</height>
+       <width>331</width>
+       <height>31</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -61,12 +61,31 @@
       <x>20</x>
       <y>130</y>
       <width>331</width>
-      <height>80</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="title">
      <string>公開鍵暗号</string>
     </property>
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_rsa">
+        <property name="text">
+         <string>RSA</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
@@ -74,7 +93,7 @@
       <x>20</x>
       <y>230</y>
       <width>331</width>
-      <height>80</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="title">
@@ -83,10 +102,10 @@
     <widget class="QWidget" name="horizontalLayoutWidget_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>0</x>
        <y>30</y>
-       <width>311</width>
-       <height>41</height>
+       <width>331</width>
+       <height>31</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -107,16 +126,6 @@
      </layout>
     </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>486</width>
-     <height>28</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

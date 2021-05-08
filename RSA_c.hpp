@@ -9,8 +9,6 @@
 #include <openssl/pem.h>
 #include <openssl/bio.h>
 
-#include "base64.hpp"
-
 #include <memory.h>
 #include <stdio.h>
 #include <cstdio>
@@ -52,13 +50,12 @@ public:
     std::string get_pub_key() const;
     std::string get_priv_key() const;
 
-    void set_key();
-
     std::string get_string_key(const KEY_STATUS &key) const;
 
     std::string str2hex(const std::string &str) const;
     std::string hex2bin(const std::string &hex) const;
     std::string decode_base64(std::string src) const;
+    void set_key();
 };
 
 #endif
